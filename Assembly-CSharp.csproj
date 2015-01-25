@@ -46,8 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\IntermediateHandler.cs" />
-     <Compile Include="Assets\Menu.cs" />
      <Compile Include="Assets\Scripts\BlinkScript.cs" />
      <Compile Include="Assets\Scripts\BoxScript.cs" />
      <Compile Include="Assets\Scripts\CabinetComplete.cs" />
@@ -60,7 +58,9 @@
      <Compile Include="Assets\Scripts\GGJRestart.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Intermediate.cs" />
+     <Compile Include="Assets\Scripts\IntermediateHandler.cs" />
      <Compile Include="Assets\Scripts\LadderScript.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\PlayerControllerScript.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\ScoreUI.cs" />
@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\VicScript.cs" />
      <Compile Include="Assets\Scripts\WinEnd.cs" />
      <Compile Include="Assets\Scripts\doorScript.cs" />
+     <Compile Include="Assets\Scripts\giftScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

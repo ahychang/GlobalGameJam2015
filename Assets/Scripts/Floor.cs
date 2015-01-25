@@ -37,7 +37,7 @@ public class Floor : MonoBehaviour {
 		float elapsed = 0.0f;
 		
 		Vector3 originalCamPos = GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<Transform> ().position;
-		while (elapsed < duration) {
+		while (elapsed < duration && Application.loadedLevelName != "Intermediate") {
 			
 			elapsed += Time.deltaTime;
 			float x = (Random.value * 2.0f) - 1.0f + originalCamPos.x;

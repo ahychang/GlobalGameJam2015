@@ -23,6 +23,12 @@ public class ScoreUI : MonoBehaviour {
 		display.text = "Score: " + score.ToString ();
 	}
 
+	public void AddScore2()
+	{
+		score += 100;
+		display.text = "Score: " + score.ToString ();
+	}
+
 	public void ResetScore()
 	{
 		score = 0;

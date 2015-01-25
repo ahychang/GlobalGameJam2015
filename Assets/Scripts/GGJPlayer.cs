@@ -19,7 +19,8 @@ public class GGJPlayer : MonoBehaviour
 	private Animator anim;					// Reference to the player's animator component.
 	private int hDir;
 
-	AudioSource footsteps;
+	AudioSource[] footsteps;
+	float deathTime;
 
 	void Awake()
 	{
@@ -27,8 +28,9 @@ public class GGJPlayer : MonoBehaviour
 		groundCheck = transform.Find("groundCheck");
 		headCheck = transform.Find("headCheck");
 		anim = GetComponent<Animator>();
-		footsteps= GetComponent<AudioSource>();
+		footsteps = GetComponents<AudioSource>();
 		hDir = 1;
+		deathTime = -999f;
 	}
 	
 	
@@ -48,10 +50,24 @@ public class GGJPlayer : MonoBehaviour
 			BoxScript bs = headed.collider.gameObject.GetComponent<BoxScript> ();
 			if (bs != null && bs.canHurt) 
 			{
-				Debug.Log ("Dead!");
-				Application.LoadLevel("Gameover");
+				footsteps[3].Play ();
+				//Application.LoadLevel("Gameover");
+				deathTime = Time.time;
+				if (facingRight)
+				{
+					transform.Rotate (0, 0, -90);
+					transform.Translate(3, -1, 0);
+				}
+				else
+				{
+					transform.Rotate (0, 0, 90);
+					transform.Translate(-3, -1, 0);
+				}
 			}
 		}
+
+		if (deathTime > 0 && Time.time > deathTime + 2)
+			Application.LoadLevel("Gameover");
 	}
 	
 	
@@ -67,13 +83,13 @@ public class GGJPlayer : MonoBehaviour
 		anim.SetFloat("Speed", Mathf.Abs(h));
 
 		// Play footsteps
-		if (Mathf.Abs (h) > 0.01f && !(footsteps.isPlaying) && PlayerPrefs.GetString ("Sound") == "True" && (grounded || onBox))
+		if (Mathf.Abs (h) > 0.01f && !(footsteps[0].isPlaying) && PlayerPrefs.GetString ("Sound") == "True" && (grounded || onBox))
 		{
-			footsteps.Play();
+			footsteps[0].Play();
 		}
-		else if ((Mathf.Abs (h) < 0.01f && footsteps.isPlaying) || !(grounded || onBox))
+		else if ((Mathf.Abs (h) < 0.01f && footsteps[0].isPlaying) || !(grounded || onBox))
 		{
-			footsteps.Stop();
+			footsteps[0].Stop();
 		}
 		
 		// If the player is changing direction (h has a different sign to velocity.x) or hasn't reached maxSpeed yet...
@@ -97,7 +113,8 @@ public class GGJPlayer : MonoBehaviour
 		
 		// If the player should jump...
 		if(jump)
-		{			
+		{	
+			footsteps[1].Play ();
 			// Add a vertical force to the player.
 			rigidbody2D.AddForce(new Vector2(0f, jumpForce));
 			anim.SetTrigger("Jump");
@@ -110,14 +127,12 @@ public class GGJPlayer : MonoBehaviour
 		{
 			rigidbody2D.AddForce(Vector2.right * hDir * moveForce * 20);
 			anim.SetTrigger("Dash");
+			footsteps[2].Play();
 			DontDestroy.me.gameObject.GetComponentInChildren<SliderScript>().used = true;
 			DontDestroy.me.gameObject.GetComponentInChildren<SliderScript>().setZero();
 		}
 	}
 
-
-	
-	
 	void Flip ()
 	{
 		// Switch the way the player is labelled as facing.

@@ -1,0 +1,46 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1099]
+    Renderer: AMD Radeon(TM) HD 6520G     
+    Vendor:   ATI
+    VRAM:     2283 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Amber\Documents\Unity\GGJ4\Builds\Final\Final_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Amber\Documents\Unity\GGJ4\Builds\Final\Final_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Amber\Documents\Unity\GGJ4\Builds\Final\Final_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Amber\Documents\Unity\GGJ4\Builds\Final\Final_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Amber\Documents\Unity\GGJ4\Builds\Final\Final_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Amber\Documents\Unity\GGJ4\Builds\Final\Final_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.096 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+Platform assembly: C:\Users\Amber\Documents\Unity\GGJ4\Builds\Final\Final_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Amber\Documents\Unity\GGJ4\Builds\Final\Final_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 6.691897 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 510.
+Total: 2.102288 ms (FindLiveObjects: 0.088906 ms CreateObjectMapping: 0.028723 ms MarkObjects: 0.329636 ms  DeleteObjects: 0.686629 ms)
+
+UnloadTime: 0.999168 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 490.
+Total: 4.404274 ms (FindLiveObjects: 0.025987 ms CreateObjectMapping: 0.018465 ms MarkObjects: 0.231155 ms  DeleteObjects: 3.177369 ms)
+
+UnloadTime: 0.972496 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 601.
+Total: 1.958670 ms (FindLiveObjects: 0.048556 ms CreateObjectMapping: 0.028723 ms MarkObjects: 0.237311 ms  DeleteObjects: 0.673635 ms)
+
+UnloadTime: 1.662545 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 200.
+Total: 8.277845 ms (FindLiveObjects: 0.021884 ms CreateObjectMapping: 0.029407 ms MarkObjects: 0.293390 ms  DeleteObjects: 6.514085 ms)
+
