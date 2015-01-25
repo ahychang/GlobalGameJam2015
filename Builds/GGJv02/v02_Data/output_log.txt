@@ -1,0 +1,68 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1099]
+    Renderer: AMD Radeon(TM) HD 6520G     
+    Vendor:   ATI
+    VRAM:     2283 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Amber\Documents\Unity\GGJ\Builds\GGJv02\v02_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Amber\Documents\Unity\GGJ\Builds\GGJv02\v02_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Amber\Documents\Unity\GGJ\Builds\GGJv02\v02_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Amber\Documents\Unity\GGJ\Builds\GGJv02\v02_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Amber\Documents\Unity\GGJ\Builds\GGJv02\v02_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Amber\Documents\Unity\GGJ\Builds\GGJv02\v02_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.105 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+Platform assembly: C:\Users\Amber\Documents\Unity\GGJ\Builds\GGJv02\v02_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Amber\Documents\Unity\GGJ\Builds\GGJv02\v02_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 6.722627 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 458.
+Total: 1.301440 ms (FindLiveObjects: 0.036929 ms CreateObjectMapping: 0.026671 ms MarkObjects: 0.259877 ms  DeleteObjects: 0.023252 ms)
+
+UnloadTime: 1.208431 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 545.
+Total: 1.317853 ms (FindLiveObjects: 0.043768 ms CreateObjectMapping: 0.028039 ms MarkObjects: 0.317324 ms  DeleteObjects: 0.016413 ms)
+
+UnloadTime: 1.494297 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 458.
+Total: 1.343157 ms (FindLiveObjects: 0.034878 ms CreateObjectMapping: 0.079331 ms MarkObjects: 0.284497 ms  DeleteObjects: 0.034194 ms)
+
+UnloadTime: 1.211167 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 545.
+Total: 1.263826 ms (FindLiveObjects: 0.043084 ms CreateObjectMapping: 0.030774 ms MarkObjects: 0.275607 ms  DeleteObjects: 0.015729 ms)
+
+UnloadTime: 1.330163 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 458.
+Total: 1.248097 ms (FindLiveObjects: 0.034878 ms CreateObjectMapping: 0.030774 ms MarkObjects: 0.252354 ms  DeleteObjects: 0.032826 ms)
+
+UnloadTime: 1.172185 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 545.
+Total: 1.258355 ms (FindLiveObjects: 0.043084 ms CreateObjectMapping: 0.031458 ms MarkObjects: 0.278342 ms  DeleteObjects: 0.016413 ms)
+
+Dead!
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 1.786317 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 164.
+Total: 1.583202 ms (FindLiveObjects: 0.015045 ms CreateObjectMapping: 0.030091 ms MarkObjects: 0.216792 ms  DeleteObjects: 0.195592 ms)
+
